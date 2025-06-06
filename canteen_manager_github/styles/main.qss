@@ -1,0 +1,157 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 导航按钮样式 */
+#navWidget QPushButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    border-radius: 3px;
+    margin: 2px 5px;
+}
+
+#navWidget QPushButton:hover {
+    background-color: #1976D2;
+}
+
+#navWidget QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+/* 退出登录按钮特殊样式 */
+#logoutButton {
+    background-color: #f44336 !important;
+    margin-top: 20px !important;
+}
+
+#logoutButton:hover {
+    background-color: #d32f2f !important;
+}
+
+#logoutButton:pressed {
+    background-color: #b71c1c !important;
+}
+
+/* 表格样式 */
+QTableView {
+    background-color: white;
+    alternate-background-color: #f8f9fa;
+    selection-background-color: #2196F3;
+    selection-color: white;
+    border: 1px solid #dee2e6;
+}
+
+QTableView::item {
+    padding: 5px;
+}
+
+QHeaderView::section {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px;
+    border: none;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* 搜索框样式 */
+QLineEdit {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: white;
+}
+
+QLineEdit:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* 按钮通用样式 */
+QPushButton {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2196F3;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+/* 对话框样式 */
+QDialog {
+    background-color: white;
+}
+
+QDialog QLabel {
+    color: #212529;
+}
+
+/* 组合框样式 */
+QComboBox {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: white;
+}
+
+QComboBox:hover {
+    border-color: #80bdff;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/images/down-arrow.png);
+}
+
+/* 消息框样式 */
+QMessageBox {
+    background-color: white;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+/* 滚动条样式 */
+QScrollBar:vertical {
+    border: none;
+    background: #f8f9fa;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c1c9d0;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 0px;
+} 

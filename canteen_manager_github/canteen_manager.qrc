@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/alice.png</file>
+        <file>images/announcement.png</file>
+        <file>images/canteen.png</file>
+        <file>images/default_dish.png</file>
+        <file>images/dish.png</file>
+        <file>images/down-arrow.png</file>
+        <file>images/logout.png</file>
+        <file>images/sagiri.png</file>
+        <file>images/user.png</file>
+        <file>styles/main.qss</file>
+        <file>images/nuaalogo.png</file>
+    </qresource>
+</RCC>
